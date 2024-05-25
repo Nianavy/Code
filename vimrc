@@ -2,7 +2,7 @@ syntax on
 set showmode
 set showcmd
 set mouse=a
-set encoding=utf-8  
+set encoding=utf-8
 set t_Co=256
 filetype indent on
 set autoindent
@@ -14,7 +14,7 @@ set number
 set cursorline
 set textwidth=80
 set wrap
-set linebreak    
+set linebreak
 set wrapmargin=2
 set scrolloff=5
 set laststatus=2
@@ -28,9 +28,9 @@ set spell spelllang=en_us
 set nobackup
 set noswapfile
 set undofile
-set backupdir=~/.vim/.backup//  
+set backupdir=~/.vim/.backup//
 set directory=~/.vim/.swp//
-set undodir=~/.vim/.undo// 
+set undodir=~/.vim/.undo//
 set autochdir
 set noerrorbells
 set visualbell
@@ -40,3 +40,9 @@ set listchars=tab:»■,trail:■
 set list
 set wildmenu
 set wildmode=longest:list,full
+inoremap ( ()<ESC>i
+inoremap [ []<ESC>i
+inoremap { {}<ESC>i
+inoremap < <><ESC>i
+inoremap ' ''<ESC>i
+inoremap " ""<ESC>i
