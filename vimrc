@@ -11,7 +11,6 @@ set shiftwidth=4
 set expandtab
 set softtabstop=4
 set number
-set relativenumber
 set cursorline
 set textwidth=80
 set wrap
