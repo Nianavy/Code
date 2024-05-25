@@ -2,8 +2,7 @@ set nocompatible
 syntax on
 set showmode
 set showcmd
-set mouse=a
-set encoding=utf-8
+set encoding=utf-8                                                                                                                                                                                                                                         
 set t_Co=256
 filetype indent on
 set autoindent
@@ -26,12 +25,6 @@ set incsearch
 set ignorecase
 set smartcase
 set spell spelllang=en_us
-set nobackup
-set noswapfile
-set undofile
-set backupdir=~/.vim/.backup//
-set directory=~/.vim/.swp//
-set undodir=~/.vim/.undo//
 set autochdir
 set noerrorbells
 set visualbell
