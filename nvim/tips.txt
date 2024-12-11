@@ -1,1 +1,1 @@
-this folder only for win's neovim
+this folder only for Linux's neovim

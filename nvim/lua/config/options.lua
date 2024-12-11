@@ -13,7 +13,7 @@ local options = {
   confirm = true, -- 没有保存或文件只读时弹出确认
 
   --SHELL
-  shell = "powershell",
+  shell = "bash",
   shellcmdflag = "-command",
   shellquote = '"',
   shellxquote = "",
@@ -82,4 +82,3 @@ local options = {
 for k, v in pairs(options) do
   vim.opt[k] = v
 end
-
